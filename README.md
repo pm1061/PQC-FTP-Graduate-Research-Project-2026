@@ -5,12 +5,12 @@ This FTP project includes both a post-quantum cryptography (PQC) implementation 
 Both the client and server use `./files` as the default file directory. Put your own files in that directory before running. Both implementations were originally tested with file sizes of 1 MB, 10 MB, 50 MB, and 100 MB.
 
 ## Third-Party Dependencies
-This application requires liboqs and liboqs-java. Users must install liboqs and compile liboqs-java before running the PQC FTP client or server. Refer to the official repositories for installation instructions.
+This application requires liboqs v0.16.0 and liboqs-java v0.3.0. Users must install liboqs and compile liboqs-java before running the PQC FTP client or server. Refer to the official repositories for installation instructions.
 
 ## Running PQC-FTP
 
 ### Prerequisites
-To run the PQC implementation, you must install `liboqs` on both the client and server machines. You also need a compiled `liboqs-java.jar` on both machines.
+To run the PQC implementation, you must install `liboqs v0.16.0` on both the client and server machines. You also need a compiled `liboqs-java.jar` on both machines.
 The commands below use a Unix-style classpath separator (`:`). Replace `$HOME/path/to/jar/file/liboqs-java.jar` with the actual path to your JAR file.
 
 ### 1. Generate the server identity (`GenerateServerIdentity.java`)
